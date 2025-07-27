@@ -86,10 +86,12 @@ Directory structure:
 
 ## API Endpoints
 
-| **Endpoint**            | **Method** | **Description**             |
-| ----------------------- | ---------- | --------------------------- |
-| `/api/stocks/<ticker>`  | GET        | Fetch historical stock data |
-| `/api/predict/<ticker>` | GET        | Predict future stock prices |
+| **Endpoint**                          | **Method** | **Description**                                  |
+|--------------------------------------|------------|--------------------------------------------------|
+| `/api/stocks/<ticker>`               | GET        | Fetch historical stock data                      |
+| `/api/predict/<ticker>`              | GET        | Predict future stock prices                      |
+| `/api/export/history?ticker=...`     | GET        | Download historical data as CSV or Excel         |
+| `/api/export/predictions?ticker=...` | GET        | Download prediction results as CSV or Excel      |
 
 ---
 
